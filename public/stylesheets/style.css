@@ -1,8 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+header{
+  background-image: url(../images/bike-background.jpg);
+  height: 30vh;
+  background-position: center center;
+  background-size: cover;
+  padding: 10px;
 }
+
+header > h3{
+  color: white;
+  font-size: 2rem;
+}
+
+.getArticles{
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid rgb(73, 73, 235);
+  align-items: center;
+  padding: 5px;
+  margin: 10px 20px;
+}
+
