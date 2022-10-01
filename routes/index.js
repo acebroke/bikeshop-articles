@@ -11,4 +11,9 @@ router.get("/articles", function (req, res, next) {
   articlesModel.find().then((data) => res.json({ articles: data }));
 });
 
+
+router.get("/article", function (req, res, next) {
+  articlesModel.find().then((data) => res.json({ articles: data }));
+});
+
 module.exports = router;
