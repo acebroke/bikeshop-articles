@@ -23,12 +23,19 @@ header > h3{
 .getArticles{
   display: flex;
   justify-content: space-evenly;
-  border: 2px solid rgb(73, 73, 235);
+  border: 2px solid #1e3799;
+  background-color: #1e3799;
   align-items: center;
   padding: 5px;
   margin: 10px 20px;
+  border-radius: 7px;
+  color: #f5f6fa;
 }
 
 .green{
-  border-color: green !important;
+  border-color: #78e08f !important;
+  background-color: #78e08f;
+}
+.element{
+  font-size: 0.9rem;
 }
