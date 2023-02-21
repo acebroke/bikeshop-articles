@@ -3,8 +3,9 @@ const mongoose = require("mongoose");
 const articleSchema = mongoose.Schema({
   name: String,
   price: Number,
-  url: String,
+  image: String,
   quantity: Number,
+  stars: Number,
 });
 
 const articlesModel = mongoose.model("articles", articleSchema);
